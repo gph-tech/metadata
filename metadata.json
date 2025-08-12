@@ -2,6 +2,6 @@
     "name": "Foregate USD",
     "symbol": "FGUSD",
     "description": "Foregate Trial Token",
-    "image": "https://raw.githubusercontent.com/solana-developers/opos-asset/main/assets/DeveloperPortal/image.png",
+    "image": "https://raw.githubusercontent.com/gph-tech/metadata/main/fgusd_logo.png",
     "attributes": []
 }
