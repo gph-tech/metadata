@@ -4,7 +4,8 @@ import { createUmi } from '@metaplex-foundation/umi-bundle-defaults';
 import "@solana/web3.js";
 import secret from '/Users/alex/.config/solana/id.json';
 
-const umi = createUmi('https://practical-nameless-pine.solana-devnet.quiknode.pro/93438d716db87e9261e5f905f65abb9e6e9ac06a/'); //Replace with your QuickNode RPC Endpoint
+//const umi = createUmi('https://practical-nameless-pine.solana-devnet.quiknode.pro/93438d716db87e9261e5f905f65abb9e6e9ac06a/'); // devnet
+const umi = createUmi('https://mainnet.helius-rpc.com/?api-key=91f72098-143f-46cc-8165-fe1080a34d55'); // mainnet
 
 const userWallet = umi.eddsa.createKeypairFromSecretKey(new Uint8Array(secret));
 const userWalletSigner = createSignerFromKeypair(umi, userWallet);
